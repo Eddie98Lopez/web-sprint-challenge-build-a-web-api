@@ -12,3 +12,13 @@ I need this code, but don't know where, perhaps should make some middleware, don
 
 Go code!
 */
+
+// Write your "actions" router here!
+
+const server = require('./api/server')
+
+const PORT = 5000
+
+server.listen(PORT, ()=>{
+    console.log(`**** Server listening on http://localhost:${PORT} ****`)
+})
